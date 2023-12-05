@@ -31,7 +31,7 @@ async fn main() -> anyhow::Result<()> {
             },
         )
         .await.unwrap();
-      println!("result {}", res);
+      println!("result {:?}", res);
 
       return Ok(());
 }
