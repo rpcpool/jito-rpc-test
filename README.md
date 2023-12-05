@@ -2,5 +2,9 @@
 
 To run:
 
-1. echo "RPC_URL=<rpc_url>"
-2. cargo run
+```
+$ git clone https://github.com/rpcpool/jito-rpc-test
+$ cd jito-rpc-test
+$ echo "RPC_URL=<rpc_url>" >.env
+$ cargo run
+```
