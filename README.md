@@ -12,8 +12,8 @@ $ cargo run
 Sample output:
 
 ```
-    Finished dev [unoptimized + debuginfo] target(s) in 0.36s
-     Running `target/debug/jito`
+Finished dev [unoptimized + debuginfo] target(s) in 0.36s
+Running `target/debug/jito`
 running version 1.16.19
 running on node AAccsdfa2312111e1e1231231
 running simulate_bundle
