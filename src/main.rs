@@ -13,7 +13,7 @@ async fn main() -> anyhow::Result<()> {
     println!("running version {}", version.solana_core);
 
     let identity= rpc_client.get_identity().await.unwrap();
-    println!("running version {}", identity);
+    println!("running on node {}", identity);
 
     println!("running simulate_bundle");
     let res = rpc_client
